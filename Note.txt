@@ -1,0 +1,19 @@
+Authorisation: Determine what resources a user can access
+Authentication: Determining the identity of a user, server or client
+
+Common Authorization Methodologies
+Role based access controls
+Used for small application as it more simplier to configure and setup and manage.
+Attribute based access controls
+
+Django comes with a built in permission system
+django.contrib.Authentication
+for default permissions:
+add, change, delete and view
+
+In auth_user there are many fields 
+one user can be part of many group and one group can have many user. 
+one user can have many permission and one permission can be connected to many user.
+
+
+
